@@ -3,7 +3,7 @@
 
     --black-def: #0e0e0e;
     --white-def: #dedede;
-    --gray-def: #323232;
+    --gray-def: #454545;
 }
 
 * {
@@ -39,6 +39,7 @@ h2 {
     font-family: 'Oswald', sans-serif;
     font-size: 40px;
     line-height: 50px;
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 /* #endregion */
@@ -101,8 +102,8 @@ h2 {
     background-position: center;
     background-size: cover;
     margin:0;
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     padding-left: 10px;
     color: var(--black-def);
 }
@@ -142,7 +143,6 @@ h2 {
     grid-row: 1 / 3;
 }
 #area1 .quote {
-    font-style: italic;
     margin-bottom: 35px;
     font-size: 20px;
 }
@@ -160,6 +160,49 @@ h2 {
     letter-spacing: 1px;
 }
 #area1 a:hover {
+    background-color: var(--gray-def);
+    color: var(--white-def);
+    transition: 400ms;
+}
+/* #endregion */
+
+
+
+/* #region AREA2 */
+#area2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#area2 .a2-img1 {
+    background-image: url('/components/f3.jpg');
+    background-size: cover;
+    background-position: center;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+#area2 .a2-img2 {
+    background-image: url('/components/f4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+#area2 .a2-content {
+    padding: 100px;
+}
+#area2 .text {
+    margin-bottom: 60px;
+    line-height: 30px;
+    font-size: 14px;
+}
+#area2 a {
+    text-decoration: none;
+    color: var(--gray-def);
+    padding: 10px 30px;
+    border: 2px solid var(--gray-def);
+    border-radius: 3px;
+    letter-spacing: 1px;
+}
+#area2 a:hover {
     background-color: var(--gray-def);
     color: var(--white-def);
     transition: 400ms;
