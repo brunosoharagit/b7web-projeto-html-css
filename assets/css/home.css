@@ -1,0 +1,24 @@
+:root {
+    --starbucks-bg: #117050;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* #region TAGS */
+body{
+    font-family: 'Open sans', sans-serif;
+}
+/* #endregion */
+
+
+
+/* #region HEADER */
+header .line {
+    background-color: var(--starbucks-bg);
+    height: 10px;
+}
+/* #endregion */
