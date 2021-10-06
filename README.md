@@ -1,6 +1,3 @@
-# B7Web projeto - HTML + CSS
-• Projeto realizado no curso de HTML e CSS da B7Web cursos
-
-
-## Conteúdo a ser abordado
-• Projeto layout Starbucks
+<h1>Projeto Flexbox + Grid</h1>
+• Projeto separado do curso HTML + CSS da B7Web
+• link: <a href="http://https://github.com/brunosoharagit/b7web-curso-html-css">Curso HTML + CSS da B7Web (repositório)</a>
