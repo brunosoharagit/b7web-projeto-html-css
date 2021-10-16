@@ -184,7 +184,7 @@ h2 {
     background-image: url('/components/f4.jpg');
     background-size: cover;
     background-position: center;
-    height: 350px;
+    height: 450px;
 }
 #area2 .a2-content {
     padding: 100px;
@@ -206,5 +206,78 @@ h2 {
     background-color: var(--gray-def);
     color: var(--white-def);
     transition: 400ms;
+}
+/* #endregion */
+
+
+
+/* #region AREA3 */
+#area3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#area3 .a3-img1 {
+    background-image: url('/components/f5.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#area3 .a3-content {
+    padding:200px 130px;
+    background-image: url('/components/bg2.jpg');
+    background-position: left;
+    background-size: cover;
+}
+#area3 .text {
+    margin-bottom: 60px;
+    line-height: 30px;
+    font-size: 14px;
+}
+#area3 a {
+    text-decoration: none;
+    color: var(--gray-def);
+    padding: 10px 30px;
+    border: 2px solid var(--gray-def);
+    border-radius: 3px;
+    letter-spacing: 1px;
+}
+#area3 a:hover {
+    background-color: var(--gray-def);
+    color: var(--white-def);
+    transition: 400ms;
+}
+/* #endregion */
+
+
+
+/* #region AREA4 */
+#area4 .a4-content {
+    padding:150px 80px;
+    background-color: #E8E9EE;
+}
+#area4 {
+    display: grid;
+    grid-template-columns: 500px 1fr;  
+}
+#area4 .text {
+    margin-bottom: 50px;
+    line-height: 30px;
+    font-size: 14px;
+}
+#area4 a {
+    text-decoration: none;
+    color: var(--gray-def);
+    padding: 10px 30px;
+    border: 2px solid var(--gray-def);
+    border-radius: 3px;
+    letter-spacing: 1px;
+}
+#area4 a:hover {
+    background-color: var(--gray-def);
+    color: var(--white-def);
+    transition: 400ms;
+}
+#area4 .a4-img1 {
+    background-image: url('/components/bg3.jpg');
+    background-position: left;
 }
 /* #endregion */
