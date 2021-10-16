@@ -1,7 +1,7 @@
 :root {
     --starbucks-def: #117050;
 
-    --black-def: #0e0e0e;
+    --black-def: #2f2f2f;
     --white-def: #dedede;
     --gray-def: #454545;
 }
@@ -279,5 +279,30 @@ h2 {
 #area4 .a4-img1 {
     background-image: url('/components/bg3.jpg');
     background-position: left;
+}
+/* #endregion */
+
+
+
+/* #region AREA5 */
+#area5{
+    background-image: url('/components/bg4.jpg');
+    background-position: cover;
+    background-position: cover;
+    height: 600px;
+}
+/* #endregion */
+
+
+
+/* #region FOOTER */
+footer {
+    color: var(--white-def);
+    background-color: var(--black-def);
+    height: 200px;
+    text-align: center;
+}
+footer .text {
+    padding-top: 75px;
 }
 /* #endregion */
